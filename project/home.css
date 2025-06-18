@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    background-color: rgb(1, 1, 56);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+.div1{
+    height: 80px;
+    /* background-color: black; */
+    width: 1240px;
+    display: grid;
+    grid-template-columns: 200px 1040px;
+    grid-template-rows: 80px;
+}
+.grid3 h1{
+    margin-top: 5px;
+    font-size: 40px;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    float: left;    
+}
+.grid3{
+    display: flex;
+    justify-content: center;
+}
+.grid4{
+    display: flex;
+    justify-content: center;
+}
+.grid4 p{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 200;
+    color: white;
+    margin-top: 10px;
+
+}
+.grid1{
+    /* background-color: brown; */
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 40px 40px;
+}
+ul{
+    list-style: none;
+    margin-left: 600px;
+    /* margin-top: 20px; */
+}
+ul li{
+    float: left;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    margin-left: 30px;
+    font-size: 18px;
+    transition: 0.5s;
+    
+}
+ul li:hover{
+    color: rgb(141, 138, 138);
+}
+.liicon{
+    margin-top: 20px;
+}
+.liunicon{
+    margin-top: 31px;
+}
+.div2{
+    /* background-image: url("https://i.pinimg.com/736x/6d/8c/69/6d8c6988d61899b3a69ae7ea13e5865d.jpg"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;    
+    animation: 8s pox infinite;
+}
+@keyframes pox{
+    0%{
+        background-image: url("https://i.pinimg.com/736x/6d/8c/69/6d8c6988d61899b3a69ae7ea13e5865d.jpg");
+    
+
+    }
+    50%{
+        background-image: url("https://i.pinimg.com/736x/2b/84/ae/2b84ae124f6e96373a016b7e80427840.jpg");
+    
+    }
+    100%{
+        background-image: url("https://i.pinimg.com/736x/d5/41/53/d54153ec81cf3e1f50ac601a97285700.jpg");
+   
+    }
+}
+.div3{
+    background-color: rgb(0, 0, 0,0.5);
+    height: 700px;
+    text-align: center;
+    border: solid 1px transparent;
+}
+.div3 .p1{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+    font-size: 45px;
+    margin-top: 250px;
+    letter-spacing: 2px;
+}
+.div3 .p2{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 200;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.div3 button{
+    margin-top: 30px;
+    height: 60px;
+    width: 200px;
+    color: rgb(1, 1, 56);
+    background-color:white;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+.div3 button:hover{
+    color: white;
+    transform: scale(1.05);
+    background-color:rgb(1, 1, 56);
+    cursor: pointer;
+}
+.div4{
+    height: 550px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative; 
+    
+}
+.div5{
+    height: 500px;
+    width: 1240px;
+    display: grid;
+    margin-top: 25px;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 500px;
+    /* background-color: blue; */
+    gap:40px;
+}
+.grid5{
+    /* background-color: brown; */
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 380px 110px;
+    gap: 10px;
+}
+.grid61 {
+    height: 380px;
+    background-image: url("https://i.pinimg.com/736x/ff/93/b0/ff93b09ad6aae1465a89e92e4fab4b75.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    z-index: 1;
+}
+
+.grid62{
+    height: 380px;
+    background-image: url("https://i.pinimg.com/736x/b9/ee/87/b9ee87c3de23ddbb6e58fe8e789f4e12.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    z-index: 1;
+
+}
+.grid63{
+    height: 380px;
+    background-image: url("https://i.pinimg.com/736x/b6/05/aa/b605aac3bca53ed1cab4fc2c06125331.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    z-index: 1;
+
+}
+.grid61:hover,.grid62:hover,.grid63:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    z-index: 0; 
+}
+.grid6 p{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    color: rgb(1, 1, 56);
+    font-size: 25px;
+    margin-top: 17.5px;
+}
+.grid5 a{    
+    text-decoration: none;
+}
+.divcol{
+    height: 80px;
+    text-align: center;
+}
+.divcol p{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    color: rgb(1, 1, 56);
+    font-size: 45px;
+    margin-top: 35px;
+
+}
+.div6{
+    height: 500px;
+    background-image: url("https://i.pinimg.com/736x/3b/cb/19/3bcb199bd9a46d1c500b0756d4a0981b.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.div7{
+    height: 500px;
+    background-color: rgb(0, 0, 0,0.5);
+    text-align: center;
+    border: solid 1px transparent;
+}
+.div7 p{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+    font-size: 30px;
+    margin-top: 150px;
+    letter-spacing: 2px;
+
+}
+.div7 button{
+    margin-top: 30px;
+    height: 60px;
+    width: 400px;
+    color: white;
+    background-color:rgb(1, 1, 56);
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+.div7 button:hover{
+    color: rgb(1, 1, 56);
+    background-color:white;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.div8{
+    background-color: rgb(1, 1, 56);
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div9{
+    width: 1240px;
+    height: 450px;
+    /* background-color: brown; */
+    display: grid;
+    grid-template-columns: 610px 620px;
+    grid-template-rows: 450px;
+    gap: 10px;
+}
+.grid72{
+    display: flex;
+    justify-content: center;
+}
+.grid7 .p1{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+    font-size: 40px;
+    margin-top: 100px;
+    letter-spacing: 2px;
+
+}
+.grid7{
+    text-align: center;
+}
+.grid7 .p2{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;
+    color: white;
+    margin-top: 50px;
+    line-height: 1.5;
+}
+.grid7 .p3{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.div10{
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    border: solid 1px white;
+}
+.div10 p{
+    color: rgb(1, 1, 56);
+    margin-top: 41px;
+
+}
+.material-symbols-outlined {
+    font-size: 40px !important; 
+}
+.div11{
+    height: 740px;
+    /* background-color: blueviolet; */
+    border: solid 1px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div12{
+    height: 680px;
+    /* background-color: red; */
+    width: 1300px;
+    display: grid;
+    grid-template-columns: 700px 580px;
+    grid-template-rows: 680px;
+    gap: 20px;
+}
+.grid9{
+    /* background-color: orangered; */
+    display: grid;
+    grid-template-columns: 280px 280px;
+    grid-template-rows: 330px 330px;
+    gap: 20px;
+    
+}
+.grid8, .grid91, .grid92, .grid93, .grid94,.grid1011,.grid1013{
+    overflow: hidden; 
+    position: relative;
+    text-align: center;
+}
+
+.grid8 img, .grid91 img, .grid92 img, .grid93 img, .grid94 img,.grid1011 img, .grid1013 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    transition: transform 0.3s ease;
+}
+
+.grid8:hover img, .grid91:hover img, .grid92:hover img, .grid93:hover img, .grid94:hover img,.grid1011:hover img, .grid1013:hover img{
+    transform: scale(1.2); 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 1, 56, 0.5); /* Blue layer with transparency */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10; /* Ensures the overlay is on top of the image */
+}
+.grid8 p{
+    font-family: "Work Sans", serif;
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    transition: opacity 0.3s ease;
+    z-index: 20;
+    opacity: 0;
+    margin-top: 315px;
+    margin-left: 70px;
+
+
+}
+.grid8:hover .overlay{
+    opacity: 1;
+}
+.grid8:hover p{
+    opacity: 1;
+}
+.div13,.div14{
+    height: 130px;
+    /* background-color: red; */
+    border: solid 1px white;
+    text-align: center;
+}
+.div13 p, .div14 p{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    color: rgb(1, 1, 56);
+    font-size: 45px;
+    margin-top: 60px;
+
+}
+.div15{
+    height: 620px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div16{
+    height: 550px;
+    width: 1300px;
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: 410px 410px 410px;
+    grid-template-rows:550px;
+    justify-content: space-between;
+}
+.grid1011{
+    background-image: url("469239037_1117409810015687_414921295267040845_n.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}.grid1013{
+    background-image: url("Snapinsta.app_469744424_618129890891839_6824227649221829729_n_1080.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}

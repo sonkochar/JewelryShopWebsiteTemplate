@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    background-color: rgb(1, 1, 56);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+.div1{
+    height: 80px;
+    /* background-color: black; */
+    width: 1240px;
+    display: grid;
+    grid-template-columns: 200px 1040px;
+    grid-template-rows: 80px;
+}
+.grid3 h1{
+    margin-top: 5px;
+    font-size: 40px;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    float: left;    
+}
+.grid3{
+    display: flex;
+    justify-content: center;
+}
+.grid4{
+    display: flex;
+    justify-content: center;
+}
+.grid4 p{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 200;
+    color: white;
+    margin-top: 10px;
+
+}
+.grid1{
+    /* background-color: brown; */
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 40px 40px;
+}
+.menu ul{
+    list-style: none;
+    margin-left: 600px;
+    /* margin-top: 20px; */
+}
+.menu ul li{
+    float: left;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    margin-left: 30px;
+    font-size: 18px;
+    transition: 0.5s;
+    
+}
+.menu ul li:hover{
+    color: rgb(141, 138, 138);
+}
+.liicon{
+    margin-top: 20px;
+}
+.liunicon{
+    margin-top: 31px;
+}
+.menu .material-symbols-outlined {
+    font-size: 40px !important; 
+}
+.divback{
+    height: 170px;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: center;
+    border: solid 1px white;
+}
+.div2{
+    height: 70px;
+    width: 1400px;
+    /* background-color: red; */
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+}
+.div2 .material-symbols-outlined {
+    font-size: 30px !important; 
+}
+.div2 button{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(1, 1, 56);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    transition: 0.5s;
+    margin-left: 20px;
+}
+.div2 button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(1, 1, 56);
+    box-shadow: 1px 1px 10px rgb(1, 1, 56,.5);
+}
+.div3{
+    height: 620px;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div2 p{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(1, 1, 56);
+    margin-left: 480px;
+    font-size: 16px;
+}
+.div2 p .a1:hover{
+    text-decoration: underline;
+}
+.div2 p .a1{
+    text-decoration: none;
+    color: rgb(1, 1, 56);
+}
+.div4{
+    height: 550px;
+    width: 1200px;
+    /* background-color: rgb(43, 0, 91); */
+    display: grid;
+    grid-template-columns: 550px 630px;
+    grid-template-rows: 550px ;
+    gap:20px;
+}
+.grid51{
+    background-image: url("https://pregomesh.com/cdn/shop/files/earrings-saturday-926528_540x.jpg?v=1728665080");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    border: solid 1px rgb(181, 181, 181);
+}
+.grid51:hover{
+    background-image: url("https://pregomesh.com/cdn/shop/files/earrings-saturday-665007_675x.jpg?v=1728665080");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.grid52 .p1{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(187, 187, 187);
+}
+.grid52 .p2{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    font-size: 35px;
+    margin-top: 30px;
+}
+.grid52 .p3{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: black;
+    font-size: 25px;
+    margin-top: 15px;
+
+}
+.grid52 .p4{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: black;
+    font-size: 23px;
+    margin-top: 30px;
+    font-weight: 500;
+
+}
+.grid52 .p5{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(130, 129, 129);
+    margin-top: 10px;
+    line-height: 1.5;
+
+}
+.grid52 .p6{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: black;
+    font-weight: 500;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.div5{
+    /* background-color: brown; */
+    height: 50px;    
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+}
+.div6{
+    /* background-color: yellow; */
+    height: 50px;   
+    width: 180px;
+    border: solid 1px white;
+}
+.div6 p{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: gray;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.div7{
+    height: 50px;
+    /* background-color: yellow; */
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.div7 .quantity{
+    height: 40px;
+    width: 100px;
+    border: solid 2px rgb(187, 187, 187);
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.div7 p{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(1, 1, 56);
+    font-size: 18px;
+}
+.div8{
+    margin-top: 30px;
+    height: 60px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+}
+.div8 .button1{
+    height:60px;
+    width: 500px;
+    background-color: rgb(1, 1, 56);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    transition: 0.5s;
+}
+.div8 .button1:hover{
+    background-color: rgb(1, 1, 56);
+    color: gray;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgba(1, 1, 56, 0.8);
+    transform: scale(1.03);
+}
+.div8 .button2{
+    height:60px;
+    width: 60px;
+    margin-left: 30px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.div8 .button2:hover{
+    color: rgb(219, 0, 36);
+    font-size: 30px;
+    cursor: pointer;
+}
+.button2 .material-symbols-outlined{
+    font-size: 40px !important;
+}
+.div9{
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div10{
+    height: 200px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div11{
+    /* background-color: pink; */
+    height: 160px;
+    width: 1300px;
+    display: grid;
+    grid-template-columns: 430px 430px 430px;
+    grid-template-rows: 160px;
+    justify-content: space-between;
+
+}
+.grid71 .p1,.grid72 .p1,.grid73 .p1{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+}
+.grid71 ul{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color:rgb(130, 129, 129);
+    line-height: 1.5;
+}
+.grid72 .p2{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color:rgb(130, 129, 129);
+    line-height: 1.3;
+    margin-top: 30px;
+}
+.div12{
+    background-color: rgb(1, 1, 56);
+    height: 100px;
+    text-align: center;
+    border: solid 1px rgb(1, 1, 56);
+}
+.div12 p {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+    font-size: 35px;
+    margin-top: 25px;
+    letter-spacing: 2px;
+}
+
+.div13{
+    height: 200px;
+    background-color:rgb(1, 1, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div14{
+    height: 150px;
+    width: 1240px;
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 150px;
+    justify-content: space-between;
+}
+.grid8{
+    /* background-color: chartreuse; */
+    text-align: center;
+    color: white;
+}
+.grid8 .p1{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+.grid8 .p2{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+}
+.grid8 .material-symbols-outlined{
+    font-size: 90px !important;
+}
+.div15{
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    border: solid 1px white;
+}
+.div15 p{
+    color: rgb(1, 1, 56);
+    margin-top: 41px;
+
+}

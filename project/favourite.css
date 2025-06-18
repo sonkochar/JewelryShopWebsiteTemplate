@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    background-color: rgb(1, 1, 56);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+.div1{
+    height: 80px;
+    /* background-color: black; */
+    width: 1240px;
+    display: grid;
+    grid-template-columns: 200px 1040px;
+    grid-template-rows: 80px;
+}
+.grid3 h1{
+    margin-top: 5px;
+    font-size: 40px;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    float: left;    
+}
+.grid3{
+    display: flex;
+    justify-content: center;
+}
+.grid4{
+    display: flex;
+    justify-content: center;
+}
+.grid4 p{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 200;
+    color: white;
+    margin-top: 10px;
+
+}
+.grid1{
+    /* background-color: brown; */
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 40px 40px;
+}
+ul{
+    list-style: none;
+    margin-left: 600px;
+    /* margin-top: 20px; */
+}
+ul li{
+    float: left;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    margin-left: 30px;
+    font-size: 18px;
+    transition: 0.5s;
+    
+}
+ul li:hover{
+    color: rgb(141, 138, 138);
+}
+.liicon{
+    margin-top: 20px;
+}
+.liunicon{
+    margin-top: 31px;
+}
+.div2{
+    height: 700px;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px transparent;
+}
+.div2 span{
+    font-size: 150px;
+    color: rgb(1, 1, 56);
+    margin-top: 20px;
+}
+.div2 p{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    color: rgb(1, 1, 56);
+    font-size: 45px;
+    margin-top: 300px;
+    letter-spacing: 2px;
+}
+.div3{
+    height: 500px;
+    background-image: url("https://i.pinimg.com/736x/53/b2/f5/53b2f532a75a55e69e25257ba50de7dd.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div4{
+    background-color: rgb(0, 0, 0,0.5);
+    border: solid 1px transparent;
+    height: 500px;
+    text-align: center;
+}
+.div10{
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    border: solid 1px white;
+}
+.div10 p{
+    color: rgb(1, 1, 56);
+    margin-top: 41px;
+
+}
+.div4 button{
+    margin-top: 30px;
+    height: 60px;
+    width: 250px;
+    color: white;
+    background-color:rgb(1, 1, 56);
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+.div4 button:hover{
+    color: rgb(1, 1, 56);
+    background-color:white;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.div4 p{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+    font-size: 45px;
+    margin-top: 150px;
+    letter-spacing: 2px;
+}
+.menu .material-symbols-outlined {
+    font-size: 40px !important; 
+}
+.div3 .material-symbols-outlined {
+    font-size: 150px !important;
+
+}
+.divcol{
+    height: 220px;
+    text-align: center;
+    /* background-color: blue; */
+    border: solid 1px white;
+}
+.divcol p{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    color: rgb(1, 1, 56);
+    font-size: 45px;
+    margin-top: 150px;
+
+}
+.div12{
+    height: 550px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative; 
+    
+}
+.div11{
+    height: 500px;
+    width: 1240px;
+    display: grid;
+    margin-top: 25px;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 500px;
+    /* background-color: blue; */
+    gap:40px;
+}
+.grid5{
+    /* background-color: brown; */
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 380px 110px;
+    gap: 10px;
+}
+.grid61 {
+    height: 380px;
+    background-image: url("https://pregomesh.com/cdn/shop/products/layered-ring-mercury-300815_540x.jpg?v=1670771484");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    z-index: 1;
+}
+.grid61:hover{
+    background-image: url("https://pregomesh.com/cdn/shop/files/layered-ring-mercury-487648_540x.jpg?v=1729079505");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.grid62{
+    height: 380px;
+    background-image: url("https://pregomesh.com/cdn/shop/files/earrings-arev-508677_540x.jpg?v=1722699122");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    z-index: 1;
+
+}
+.grid62:hover{
+    background-image: url("https://pregomesh.com/cdn/shop/files/earrings-arev-180410_540x.jpg?v=1722699122");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.grid63{
+    height: 380px;
+    background-image: url("https://pregomesh.com/cdn/shop/files/necklace-bow-303625_540x.jpg?v=1716294277");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    z-index: 1;
+
+}
+.grid63:hover{
+    background-image: url("https://pregomesh.com/cdn/shop/files/necklace-bow-157684_540x.jpg?v=1717620125");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.grid6{
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: 300px 90px;
+    grid-template-rows:110px;
+    gap: 10px;
+
+}
+.grid71 i{
+    margin-top: 17.5px;
+    font-size:48px;
+    color:rgb(219, 0, 36);
+    transition:1s;
+}
+.grid71 i:hover{
+    cursor: pointer;
+    color: rgb(152, 4, 29);
+}
+.grid6 p{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    color: rgb(1, 1, 56);
+    font-size: 25px;
+    margin-top: 17.5px;
+}
+.grid5 a{    
+    text-decoration: none;
+}

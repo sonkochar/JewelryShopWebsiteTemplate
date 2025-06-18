@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    background-color: rgb(1, 1, 56);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+.div1{
+    height: 80px;
+    /* background-color: black; */
+    width: 1240px;
+    display: grid;
+    grid-template-columns: 200px 1040px;
+    grid-template-rows: 80px;
+}
+.grid3 h1{
+    margin-top: 5px;
+    font-size: 40px;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    float: left;    
+}
+.grid3{
+    display: flex;
+    justify-content: center;
+}
+.grid4{
+    display: flex;
+    justify-content: center;
+}
+.grid4 p{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 200;
+    color: white;
+    margin-top: 10px;
+
+}
+.grid1{
+    /* background-color: brown; */
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 40px 40px;
+}
+ul{
+    list-style: none;
+    margin-left: 600px;
+    /* margin-top: 20px; */
+}
+ul li{
+    float: left;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    margin-left: 30px;
+    font-size: 18px;
+    transition: 0.5s;
+    
+}
+ul li:hover{
+    color: rgb(141, 138, 138);
+}
+.liicon{
+    margin-top: 20px;
+}
+.liunicon{
+    margin-top: 31px;
+}
+.div3{
+    height: 260px;
+    background-color: rgb(1, 1, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div4{
+    height: 250px;
+    width: 1240px;
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: 220px 220px 220px 220px 220px;
+    grid-template-rows: 260px;
+    justify-content: space-between;
+}
+.grid5{
+    /* background-color: chartreuse; */
+    text-align: center;
+    color: white;
+}
+.grid5 .p1{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+
+}
+.grid5 .p3{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    margin-top: 48px;
+
+}
+.grid5 .p2{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+}
+.div10{
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    border: solid 1px white;
+}
+.div10 p{
+    color: rgb(1, 1, 56);
+    margin-top: 41px;
+
+}
+.about1{
+    height: 400px;
+    background-color: white;
+    border: solid 1px transparent;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+.about2{
+    height: 450px;
+    background-color: white;
+    border: solid 1px transparent;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+.div51{
+    width: 1240px;
+    height: 400px;
+    /* background-color: blueviolet; */
+    display: grid;
+    grid-template-columns: 840px 400px;
+    grid-template-rows: 400px;
+
+    /* display: inline-block; */
+}
+.div52{
+    width: 1240px;
+    height: 400px;
+    /* background-color: blueviolet; */
+    display: grid;
+    grid-template-columns: 400px 840px;
+    grid-template-rows: 400px;
+
+    /* display: inline-block; */
+}
+.grid64{
+    text-align: right;
+}
+.grid62{
+    border-radius: 50%;
+    border: dashed 10px rgb(1, 1, 56);
+    overflow: hidden; 
+    position: relative;
+}
+.grid62 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    transition: transform 0.3s ease;
+}
+
+.grid62:hover img {
+    transform: scale(1.2); 
+}
+.grid63{
+    border-radius: 50%;
+    border: dashed 10px rgb(1, 1, 56);
+    overflow: hidden; 
+    position: relative;
+}
+.grid63 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    transition: transform 0.3s ease;
+}
+
+.grid63:hover img {
+    transform: scale(1.2); 
+}
+.div6{
+    height: 250px;
+    border: solid 1px transparent;
+    text-align: center;
+}
+.div6 .p1{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    color: rgb(1, 1, 56);
+    font-size: 45px;
+    margin-top: 150px;
+}
+.grid61 p,.grid64 p{
+    float: left;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(1, 1, 56);
+    margin-top: 100px;
+    font-size: 22px;
+    line-height: 1.5;
+}
+.div7{
+    height: 120px;
+    border: solid 1px transparent;
+    text-align: center;
+    background-color: rgb(1, 1, 56);
+}
+.div7 .p1{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    font-size: 45px;
+    margin-top: 40px;
+}
+.store{
+    border: dashed 10px rgb(1, 1, 56);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid6{
+    height: 400px;
+    width: 1240px;
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: 640px 600px;
+    grid-template-rows: 400px;
+}
+.grid81{
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.grid82:hover{
+    transform: scale(1.1);
+}
+.grid81 p{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    color: rgb(1, 1, 56);
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.grid82{
+    background-image: url("https://i.pinimg.com/736x/b1/2a/c2/b12ac234f2fd45663fa336cb1facd008.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+.menu .material-symbols-outlined {
+    font-size: 40px !important; 
+}
+.div3 .material-symbols-outlined {
+    font-size: 100px !important;
+
+}
+.divloc{
+    height: 230px;
+    background-color: rgb(1, 1, 56);
+    justify-content: center;
+    display: flex;
+}
+.div15{
+    height: 200px;
+    width: 1240px;
+    /* background-color: red; */
+}
