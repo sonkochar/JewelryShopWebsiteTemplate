@@ -1,0 +1,671 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+.menu{
+    background-color: rgb(1, 1, 56);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+.div1{
+    height: 80px;
+    /* background-color: black; */
+    width: 1240px;
+    display: grid;
+    grid-template-columns: 200px 1040px;
+    grid-template-rows: 80px;
+}
+.grid3 h1{
+    margin-top: 5px;
+    font-size: 40px;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    float: left;    
+}
+.grid3{
+    display: flex;
+    justify-content: center;
+}
+.grid4{
+    display: flex;
+    justify-content: center;
+}
+.grid4 p{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 200;
+    color: white;
+    margin-top: 10px;
+
+}
+.grid1{
+    /* background-color: brown; */
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 40px 40px;
+}
+ul{
+    list-style: none;
+    margin-left: 600px;
+    /* margin-top: 20px; */
+}
+ul li{
+    float: left;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    margin-left: 30px;
+    font-size: 18px;
+    transition: 0.5s;
+    
+}
+ul li:hover{
+    color: rgb(141, 138, 138);
+}
+.liicon{
+    margin-top: 20px;
+}
+.liunicon{
+    margin-top: 31px;
+}
+.div2{
+    height: 500px;
+    background-image: url("https://i.pinimg.com/736x/8d/19/37/8d1937a60e5eacfa92c91459d455d093.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: 8s pox infinite;
+}
+@keyframes pox{
+    0%{
+        background-image: url("https://i.pinimg.com/736x/8d/19/37/8d1937a60e5eacfa92c91459d455d093.jpg");
+    
+
+    }
+    50%{
+        background-image: url("https://i.pinimg.com/736x/e2/ff/fa/e2fffa187bb920e83a9120f3ee6c51f9.jpg");
+    
+    }
+    100%{
+        background-image: url("https://i.pinimg.com/736x/76/45/06/76450615b65b513c6134ef974b6be87e.jpg");
+   
+    }
+}
+.div3{
+    height: 500px;
+    background-color: rgb(0,0,0,0.5);
+    text-align: center;
+    border: solid 1px transparent;
+}
+.div3 .p1,.div11 .p1{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+    font-size: 45px;
+    margin-top: 250px;
+    letter-spacing: 2px;
+}
+.div4{
+    height: 550px;
+    text-align: center;
+    border: solid 1px transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div5{
+    height: 430px;
+    width: 1240px;
+    /* background-color: crimson; */
+    display: grid;
+    grid-template-columns: 300px 300px 300px 301px;
+    grid-template-rows: 430px;
+    row-gap: 40px;
+    column-gap: 13px;
+}
+.grid5{
+    /* background-color: chartreuse; */
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 330px 90px;
+    row-gap: 10px;
+
+}
+.grid61{
+    background-image: url("https://pregomesh.com/cdn/shop/files/earrings-paran-772733_540x.jpg?v=1719111674");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    height: 330px;
+
+}
+.grid61:hover{
+    background-image: url("https://pregomesh.com/cdn/shop/files/earrings-paran-436599_540x.jpg?v=1719111674");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid62{
+    background-image: url("https://pregomesh.com/cdn/shop/files/earrings-galaxy-370477_540x.jpg?v=1723942055");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    height: 330px;
+
+}
+.grid62:hover{
+    background-image: url("https://pregomesh.com/cdn/shop/files/earrings-galaxy-642923_540x.jpg?v=1723196354");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid63{
+    background-image: url("https://pregomesh.com/cdn/shop/files/earrings-saturday-926528_540x.jpg?v=1728665080");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    height: 330px;
+
+}
+.grid63:hover{
+    background-image: url("https://pregomesh.com/cdn/shop/files/earrings-saturday-665007_675x.jpg?v=1728665080");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid64{
+    background-image: url("https://pregomesh.com/cdn/shop/files/earrings-arev-508677_540x.jpg?v=1722699122");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    height: 330px;
+
+}
+.grid64:hover{
+    background-image: url("https://pregomesh.com/cdn/shop/files/earrings-arev-562411_540x.jpg?v=1729079447");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.grid7 .p1{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    color: rgb(1, 1, 56);
+    font-size: 25px;
+    margin-top: 17.5px;
+
+}
+.grid7 .p2{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    color: rgb(1, 1, 56);
+    margin-top: 10px;
+
+}
+.grid7{
+    /* background-color: aqua; */
+    text-align: center;
+}
+.div4 a,.div5 a{
+    text-decoration: none;
+
+}
+.div6{
+    height: 300px;
+    background-image: url("https://i.pinimg.com/736x/fc/12/d4/fc12d45a61859c7c2647d9314461d030.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div7{
+    background-color: rgb(0, 0, 0,0.5);
+    height: 300px;
+    border: solid 1px transparent;
+    text-align: center;
+}
+.div7 p{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+    font-size: 50px;
+    margin-top: 125px;
+    letter-spacing: 2px;
+}
+.div8{
+    height: 530px;
+    text-align: center;
+    border: solid 1px transparent;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(1, 1, 56);
+    align-items: center;
+}
+
+.grid5{
+    /* background-color: chartreuse; */
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 330px 90px;
+    row-gap: 10px;
+
+}
+.grid69{
+    background-image: url("https://pregomesh.com/cdn/shop/files/ring-friday-235374_540x.jpg?v=1730488245");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    height: 330px;
+
+}
+.grid69:hover{
+    background-image: url("https://pregomesh.com/cdn/shop/files/ring-friday-336495_540x.jpg?v=1730819487");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid610{
+    background-image: url("https://pregomesh.com/cdn/shop/products/layered-ring-mercury-300815_540x.jpg?v=1670771484");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    height: 330px;
+
+}
+.grid610:hover{
+    background-image: url("https://pregomesh.com/cdn/shop/files/layered-ring-mercury-487648_540x.jpg?v=1729079505");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid611{
+    background-image: url("https://pregomesh.com/cdn/shop/products/ring-atom-320748_540x.jpg?v=1677563788");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    height: 330px;
+}
+.grid611:hover{
+    background-image: url("https://pregomesh.com/cdn/shop/files/ring-atom-582815_540x.jpg?v=1713311278");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid612{
+    background-image: url("https://pregomesh.com/cdn/shop/products/zodiac-ring-virgo-925573_540x.jpg?v=1654981291");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    height: 330px;
+}
+.grid612:hover{
+    background-image: url("https://pregomesh.com/cdn/shop/products/zodiac-ring-virgo-177942_540x.jpg?v=1654981291");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.grid8 .p1{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    font-size: 25px;
+    margin-top: 17.5px;
+
+}
+.grid8 .p2{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    margin-top: 10px;
+}
+.grid7{
+    /* background-color: aqua; */
+    text-align: center;
+}
+.div10{
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    border: solid 1px white;
+}
+.div10 p{
+    color: rgb(1, 1, 56);
+    margin-top: 41px;
+
+}
+.div11{
+    background-color: white;
+    height: 230px;
+    border: solid 1px white;
+    text-align: center;
+}
+.div11 .p1{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    color: rgb(1, 1, 56);
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-top: 160px;
+}
+.div12{
+    background-color: white;
+    height: 220px;
+    border: solid 1px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.grid9{
+    height: 60px;
+    width: 1240px;
+    /* background-color: yellow; */
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 60px;
+    justify-content: space-between;
+    position: absolute;
+    
+}
+.grid9 a{
+    text-decoration: none;
+}
+.grid91{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    transition: 0.5s;    
+    color: rgb(1, 1, 56);
+    padding-bottom: 10px;
+}
+.grid91 p{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    margin-top: 8px;
+}
+.menu .material-symbols-outlined {
+    font-size: 40px !important; 
+}
+.grid9 .material-symbols-outlined {
+    font-size: 35px !important; 
+    margin-top: 15px;
+}
+.grid91:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px rgb(1, 1, 56,.5);
+    background-color: rgb(1, 1, 56);
+    color: white;
+}
+.div13{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    border: solid 1px white;
+    text-align: center;
+}
+.div13 p{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    color: rgb(1, 1, 56);
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    
+}
+.div14{
+    height: 100px;
+    background-color: rgb(1, 1, 56);
+    border: solid 1px rgb(1, 1, 56);
+    text-align: center;
+}
+.div14 p{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    
+}
+.div15{
+    height: 600px;
+    background-color: red;
+}
+.div15{
+    height: 300px;
+    background-image: url("https://pregomesh.com/cdn/shop/files/palm-bracelet-vishap-148322_900x.jpg?v=1732642499");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div16{
+    background-color: rgb(0, 0, 0,0.5);
+    height: 300px;
+    border: solid 1px transparent;
+    text-align: center;
+}
+.div15 p{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+    font-size: 50px;
+    margin-top: 80px;
+    letter-spacing: 2px;
+}
+.div15 button{
+    margin-top: 30px;
+    height: 60px;
+    width: 400px;
+    color: white;
+    background-color:rgb(1, 1, 56);
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+.div15 button:hover{
+    color: rgb(1, 1, 56);
+    background-color:white;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.grid65{
+    background-image: url("https://pregomesh.com/cdn/shop/files/necklace-vishap-284243_540x.jpg?v=1731979775");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    height: 330px;
+
+}
+.grid65:hover{
+    background-image: url("https://pregomesh.com/cdn/shop/files/necklace-vishap-571917_540x.jpg?v=1731979775");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid66{
+    background-image: url("https://pregomesh.com/cdn/shop/files/necklace-bow-303625_540x.jpg?v=1716294277");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    height: 330px;
+}
+.grid66:hover{
+    background-image: url("https://pregomesh.com/cdn/shop/files/necklace-bow-157684_540x.jpg?v=1717620125");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid67{
+    background-image: url("https://pregomesh.com/cdn/shop/products/zodiac-necklace-libra-912526_540x.jpg?v=1654981294");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    height: 330px;
+}
+.grid67:hover{
+    background-image: url("https://pregomesh.com/cdn/shop/products/zodiac-necklace-scorpio-256539_540x.jpg?v=1654981298");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid68{
+    background-image: url("https://pregomesh.com/cdn/shop/products/necklace-akra-short-374133_540x.jpg?v=1653380573");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    height: 330px;
+}
+.grid68:hover{
+    background-image: url("https://pregomesh.com/cdn/shop/products/necklace-akra-short-426241_540x.jpg?v=1653337797");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid613{
+    background-image: url("https://pregomesh.com/cdn/shop/products/bracelet-nush-861505_540x.jpg?v=1680821816");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    height: 330px;
+}
+.grid613:hover{
+    background-image: url("https://pregomesh.com/cdn/shop/products/bracelet-nush-652231_540x.jpg?v=1713429055");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid614{
+    background-image: url("https://pregomesh.com/cdn/shop/products/bracelet-khachen-750995_540x.jpg?v=1654981212");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    height: 330px;
+}
+.grid614:hover{
+    background-image: url("https://pregomesh.com/cdn/shop/products/bracelet-khachen-826984_540x.jpg?v=1654968658");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid615{
+    background-image: url("https://pregomesh.com/cdn/shop/files/palm-bracelet-vishap-306549_540x.jpg?v=1731979775");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    height: 330px;
+}
+.grid615:hover{
+    background-image: url("https://pregomesh.com/cdn/shop/files/palm-bracelet-vishap-286809_540x.jpg?v=1731979775");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid616{
+    background-image: url("https://pregomesh.com/cdn/shop/products/bracelet-drip-139861_540x.jpg?v=1680732669");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    height: 330px;
+}
+.grid616:hover{
+    background-image: url("https://pregomesh.com/cdn/shop/products/bracelet-drip-599152_540x.jpg?v=1681212354");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div13new{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    border: solid 1px white;
+    text-align: center;
+}
+.div13new p{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    color: rgb(1, 1, 56);
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    
+}
+
+.div14new{
+    height: 100px;
+    background-color: rgb(1, 1, 56);
+    border: solid 1px rgb(1, 1, 56);
+    text-align: center;
+}
+.div14new p{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+
+}
